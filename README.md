@@ -1,1 +1,1 @@
-# Weather-App - https://6529468e34fba143077da83c--voluble-phoenix-98ea74.netlify.app/
+# Weather-App - https://65294ea24b271a4482634e1b--serene-lollipop-ad2c23.netlify.app/
