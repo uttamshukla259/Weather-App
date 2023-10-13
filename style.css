@@ -37,13 +37,13 @@ body{
     height: 3rem;
      width: 12rem; 
      */
-    
+    flex: 1; 
+   max-width: 80%;
      border:0;
      outline: 0;
       background: #ebfffc;
       border-radius: 2rem;
-      color: #555;
-       flex: 1; 
+      color: #555; 
       margin-right: 16px;
       font-size:22px;
       height: 60px;
