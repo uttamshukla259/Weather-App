@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(2, 2, 2);
+    /* width: 100vw;
+    height: 100vh; 
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  */
+}
+.container {
+    background:linear-gradient(135deg, rgba(78, 77, 71, 0.667) ,#5b548a);
+     width: 90%; 
+    max-width: 450px; 
+    text-align: center;
+    color: white;
+    border-radius:20px;
+    box-shadow: 5px 5px 10px;
+     padding:20px; 
+     margin: 100px  auto 0;  
+}
+.search{
+
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+}
+.search input{
+    /* border-radius: 1rem; 
+    height: 3rem;
+     width: 12rem; 
+     */
+    
+     border:0;
+     outline: 0;
+      background: #ebfffc;
+      border-radius: 2rem;
+      color: #555;
+       flex: 1; 
+      margin-right: 16px;
+      font-size:22px;
+      height: 60px;
+       padding:20px;  
+      
+ }
+ .search button{
+ 
+       
+    background-color:white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 10px; */
+        height: 60px;
+        width:  60px;
+        border-radius: 50px;
+        cursor: pointer;
+ }
+.search-icon{
+height: 50%;
+
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.col{
+    display: flex;
+        align-items: center;
+        text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+font-size: 28px;
+margin-top: -6px;
+}
+
+.weather{
+    display:none ;
+}
+.error{
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: left;
+    color: #f5efef;
+    display: none;
+}
